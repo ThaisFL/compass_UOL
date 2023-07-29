@@ -19,7 +19,7 @@ __*COMANDOS PRINCIPAIS DE UM REPO NO GIT:*__
 * __git init__ - criar repositorio.
 * __git add__ - adicionar arquivos ao repositorio.
 * __git commit__ - salvar alteraçoes.
-    * com a tag '**-a**' ele salva varios arquivos e '**-m**' envia uma mensagem;
+-     com a tag '**-a**' ele salva varios arquivos e '**-m**' envia uma mensagem;
 
 * __git push__ - envia as alteraçoes ao github.
 * __git status__ - Verifica mudanças no projeto.
@@ -57,8 +57,8 @@ Essa extensão permite a exibição de código, links, imagens, textos, etc.
 
 **_COMANDOS FUNDAMENTAIS DO LINUX:_**
 __ls__ - informa os diretórios/arquivos e seus conteúdos;
-*    __ls -l__ : mostra todos os arquivos e pastas em detalhes;
-*    __l -R__ : todos os diretórios e seus arquivo;
+-    __ls -l__ : mostra todos os arquivos e pastas em detalhes;
+-    __l -R__ : todos os diretórios e seus arquivo;
 
 __cd <diretório>__ - mudar de diretório;
 *    __cd /__ : informa todos os diretórios disponíveis na raiz;
@@ -77,7 +77,8 @@ ___rm -dv__: remove diretório vazio;
 *    __rm -rfv__: remove diretórios com arquivos dentro;
 *    __rmdir__: remove apenas diretórios do sistema;
 
-__cp <dir>__: copiar diretórios;
-*    __mv <arq> <dir>__: mudar o arquivo de diretório ou renomear;
+__cp <diret>__: copiar diretórios;
+
+__mv <arq> <diret>__: mudar o arquivo de diretório ou renomear;
 
 __pwd__: informa o diretório onde você está;
