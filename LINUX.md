@@ -1,7 +1,7 @@
-*COMANDOS FUNDAMENTAIS LINUX*
-Comandos fundamentais Linux:
-ls - informa os diretórios/arquivos e seus conteúdos;
-ls -l : mostra todos os arquivos e pastas em detalhes;
+**COMANDOS FUNDAMENTAIS LINUX**
+
+- __ls__ - informa os diretórios/arquivos e seus conteúdos;
+- __ls -l__ : mostra todos os arquivos e pastas em detalhes;
 ls -a : arquivos ocultos;
 ls -lh : tamanho dos arquivos;
 ls -ltr : data de modificação do arquivo;
