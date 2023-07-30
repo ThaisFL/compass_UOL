@@ -16,27 +16,27 @@ __*O QUE É GITHUB?*__  É um serviço usado para gerenciar os repositórios de 
 
 
 __*COMANDOS PRINCIPAIS DE UM REPO NO GIT:*__
-* __git init__ - criar repositorio.
-* __git add__ - adicionar arquivos ao repositorio.
-* __git commit__ - salvar alteraçoes.
--     com a tag '**-a**' ele salva varios arquivos e '**-m**' envia uma mensagem;
+- __git init__ - criar repositorio.
+- __git add__ - adicionar arquivos ao repositorio.
+- __git commit__ - salvar alteraçoes.
+*     com a tag '**-a**' ele salva varios arquivos e '**-m**' envia uma mensagem;
 
-* __git push__ - envia as alteraçoes ao github.
-* __git status__ - Verifica mudanças no projeto.
-* __git pull__ - Envia as mudanças do repo local para o remoto.
-* __git rm__ - remove arquivo.
-* __git clone__ - baixa um repo do git hub e clona na maquina.
+- __git push__ - envia as alteraçoes ao github.
+- __git status__ - Verifica mudanças no projeto.
+- __git pull__ - Envia as mudanças do repo local para o remoto.
+- __git rm__ - remove arquivo.
+- __git clone__ - baixa um repo do git hub e clona na maquina.
 
 ## Branches
 **_O QUE É UMA BRANCH?_**
 É uma ramificaçao do projeto, serve para consertar bugs e inserir funçoes sem intervir no projeto principal.
 
 **_COMANDOS PRINCIPAIS DE UMA BRANCH:_**
-* __git branch<nome>__ - criar uma nova branch.
-* __git branch -d <nome>__ - deletar branch.
-* __git pull__- receber atualizações do repositório remoto; (atualizar o branch sempre que for usar).
-* __git checkout <nome>__ - alternar a branch.
-* __git push__ - enviar alterações mas apenas de arquivos commitados.
+- __git branch<nome>__ - criar uma nova branch.
+- __git branch -d <nome>__ - deletar branch.
+- __git pull__- receber atualizações do repositório remoto; (atualizar o branch sempre que for usar).
+- __git checkout <nome>__ - alternar a branch.
+- __git push__ - enviar alterações mas apenas de arquivos commitados.
 
 ## Markdown
 Markdown é uma forma de adicionar estilo a textos.
@@ -82,3 +82,4 @@ __cp <diret>__: copiar diretórios;
 __mv <arq> <diret>__: mudar o arquivo de diretório ou renomear;
 
 __pwd__: informa o diretório onde você está;
+
