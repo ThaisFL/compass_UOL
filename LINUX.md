@@ -1,76 +1,107 @@
-**COMANDOS FUNDAMENTAIS LINUX**
+# **COMANDOS FUNDAMENTAIS LINUX**
+Devido ao tamanho do curso Linux e a diversidade de comandos e detalhes, criei este documento para um resumo completo sobre os comandos fundamentais do Linux, com mais detalhes que o resumo no README.
 
 - __ls__ - informa os diretórios/arquivos e seus conteúdos;
-- __ls -l__ : mostra todos os arquivos e pastas em detalhes;
-ls -a : arquivos ocultos;
-ls -lh : tamanho dos arquivos;
-ls -ltr : data de modificação do arquivo;
-ls - l /<diretório/: lista arquivos do diret;
-ls -lr /<diretório>/: lista arq. em ordem decrescente;
-l -R : todos os diretórios e seus arq.;
+    * __ls -l__ : mostra todos os arquivos e pastas em detalhes;
+    * __ls -a__ : arquivos ocultos;
+    * __ls -lh__: tamanho dos arquivos;
+    * __ls -ltr__ : data de modificação do arquivo;
+    * __ls - l /<diretório/__: lista arquivos do diret;
+    * __ls -lr /<diretório>/__: lista arq. em ordem decrescente;
+    * __l -R__ : todos os diretórios e seus arq.;
 
-cd <diretório> - mudar de diretório;
-cd / : informa todos os diretórios disponíveis na raiz;
-cd /diretorio1/ /diretorio2/: passa para outro diretório;
-cd .. : volta ao diretório anterior; ou ‘cd .. / .. /’ para voltar mais diretórios
-cd - : voltar o último diretório;
+- __cd <diretório>__ - mudar de diretório;
+    * __cd /__ : informa todos os diretórios disponíveis na raiz;
+    * __cd /diretorio1/ /diretorio2/__: passa para outro diretório;
+    * __cd ..__: volta ao diretório anterior; ou ‘_cd .. / .. /_’ para voltar mais diretórios
+    * __cd -__: voltar o último diretório;
 
-clear : limpa a tela do terminal;
-cat  : conteúdo de um arquivo;
-cat -n  : conteúdo com linhas numeradas;
+- __clear__ : limpa a tela do terminal;
 
-touch : muda a hora de atualização do arquivo e/ou criar arquivo vazio; 
-man : manual de um comando;
+- __cat__ : conteúdo de um arquivo;
+    * __cat -n__ : conteúdo com linhas numeradas;
 
+- __touch__ : muda a hora de atualização do arquivo e/ou criar arquivo vazio;
 
-Gerenciar arquivos e diretórios:
-mkdir <nome do diret.>: criar novo diretório; 
-mkdir -v: específica o que está acontecendo no comando;
-mkdir -p <dir1>/<dir2>/<dir3>: criar diretório dentro de outro diretório;
-
-rm: remove diretórios ou (vários) arquivos;
-rm -dv: remove diretório vazio;
-rm -rfv: remove diretórios com arquivos dentro;
-
-rmdir: remove apenas diretórios do sistema;
-
-cp <dir>: copiar diretórios;
-cp <arq> <dir>: cópia arquivo na pasta selecionada;
-
-mv <arq> <dir>: mudar o arquivo de diretório ou renomear;
-
-pwd: informa o diretório onde você está;
+- __man <nome do comando>__ : manual de um comando;
 
 
-Gerenciamento de pacotes: 
-sudo apt upgrade:  atualiza todos os repositórios de app; fazendo o comando pela 2 vez ele atualiza os pacotes;
-sudo apt install <nome app>: install aplicativo na máquina;
+## __*GERENCIAR ARQUIVOS E DIRETÓRIOS:*__
 
-sudo apt purge <nome app>: remove aplicativo;
+- __mkdir <nome do diret.>__ : criar novo diretório;
 
-sudo apt dist-upgrade: atualiza para a última versão;
+- __mkdir -v__: específica o que está acontecendo no comando;
+
+- __mkdir -p <dir1>/<dir2>/<dir3>__: criar diretório dentro de outro diretório;
+
+- __rm__: remove diretórios ou (vários) arquivos;
+    * __rm -dv__: remove diretório vazio;
+    * __rm -rfv__: remove diretórios com arquivos dentro;
+
+- __rmdir__: remove apenas diretórios do sistema;
+
+- __cp <dir>__ : copiar diretórios;
+    * __cp <arq> <dir>__: copia o arquivo na pasta selecionada;
+
+- __mv <arq> <dir>__: mudar o arquivo de diretório ou renomear;
+
+- __pwd__: informa o diretório onde você está;
+
+
+## __*GERENCIAMENTO DE PACOTES:*__
+
+- __sudo apt upgrade__:  atualiza todos os repositórios de app; fazendo o comando pela 2 vez ele atualiza os pacotes;
+
+- __sudo apt install <nome app>__: install aplicativo na máquina;
+
+- __sudo apt purge <nome app>__: remove aplicativo;
+
+- __sudo apt dist-upgrade__: atualiza para a última versão;
 obs.: não recomendável usar pois o pc pode não acompanhar a atualização;
 
-sudo apt autoremove: limpar pacotes/aplicativos desnecessários;
+- __sudo apt autoremove__: limpar pacotes/aplicativos desnecessários;
 
-apt-cache search <nome do pacote>: pesquisar por pacotes/aplicativos;
-
-
+- __apt-cache search <nome do pacote>__: pesquisar por pacotes/aplicativos;
 
 
+## __*GERENCIAMEMTO DE USUÁRIOS E GRUPOS*__
+__criar usuário:__  *sudo adduser <usuario novo>*
+   * *verificar os usuarios: *teste: ls /home/*
 
-Principais diretórios do sistema Linux: diretório = pasta.
-bin - pasta com arquivos binários; executa o shell;
-boot - arquivos que auxiliam na inicialização do sistema;
-dev - representa todos os dispositivos de entrada e saída do sistema; usb;
-etc - arquivos de configuração;
-home - diretório de todos os usuários;
-lib - arquivos de bibliotecas;
-média - responsável por apresentar as pastas;
-opt -  arquivos para aplicações não oficiais;
-sbin - arquivos binários de inicialização do sistema;
-tmp - arquivos descartáveis;
-usr - arquivos no modo leitura; não é editável;
-var - arquivos de log (erro); arq variáveis;
+__deletar usuário:__ sudo userdel --remove <usuario>
+
+__modificar nome:__ *sudo usermod -c ‘<novo nome>’ <antigo nome>*
+
+__desabilitar usuário:__ *sudo usermod -L <usuário>*
+
+__habilitar:__ *sudo usermod -u <usuário>*
+
+__criar grupos:__ *sudo groupadd -g <número> <nome gr.>*
+   * verificar grupos: *getent group*
+
+__deletar grupos:__ *sudo groupdel <grupo>*
+
+__adicionar ou mudar usuário:__ *sudo usermod -a -G <grupo> <usuário>*
+
+__remover usuário:__ *sudo gpasswd -d <usuario> <grupo>*
+
+__virar um super usuario (nao usar o sudo e vira root):__ *sudo su*
+
+__trocar senha de usuário:__ *passwd*
 
 
+# __*Principais diretórios do sistema Linux:*__ 
+> diretório = pasta.
+
+* __bin__ - pasta com arquivos binários; executa o shell;
+* __boot__ - arquivos que auxiliam na inicialização do sistema;
+* __dev__ - representa todos os dispositivos de entrada e saída do sistema; usb;
+* __etc__ - arquivos de configuração;
+* __home__ - diretório de todos os usuários;
+* __lib__ - arquivos de bibliotecas;
+* __média__ - responsável por apresentar as pastas;
+* __opt__ -  arquivos para aplicações não oficiais;
+* __sbin__ - arquivos binários de inicialização do sistema;
+* __tmp__ - arquivos descartáveis;
+* __usr__ - arquivos no modo leitura; não é editável;
+* __var__ - arquivos de log (erro); arq variáveis;
