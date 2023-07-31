@@ -90,4 +90,6 @@ Essa extensão permite a exibição de código, links, imagens, textos, etc.
 [Certificado Git e GitHub](https://udemy-certificate.s3.amazonaws.com/image/UC-885806dd-3e03-4df3-a985-e2669898b245.jpg)
 
 
-[Certificado LINUX](https://udemy-certificate.s3.amazonaws.com/image/UC-b78e4e85-291a-49f6-9f6c-ace18720bc96.jpg) 
+[Certificado LINUX](https://udemy-certificate.s3.amazonaws.com/image/UC-b78e4e85-291a-49f6-9f6c-ace18720bc96.jpg)
+
+[Certificado data e analitycs 1](https://udemy-certificate.s3.amazonaws.com/image/UC-0c46462d-4c43-4a1b-930f-fb66d4fe471b.jpg) 
