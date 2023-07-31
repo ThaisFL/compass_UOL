@@ -40,10 +40,10 @@ Devido ao tamanho do curso Linux e a diversidade de comandos e detalhes, criei e
 
 - __rmdir__: remove apenas diretórios do sistema;
 
-- __cp <dir>__ : copiar diretórios;
-    * __cp <arq> <dir>__: copia o arquivo na pasta selecionada;
+- __cp <diret.>__ : copiar diretórios;
+    * __cp <arq> <diret.>__: copia o arquivo na pasta selecionada;
 
-- __mv <arq> <dir>__: mudar o arquivo de diretório ou renomear;
+- __mv <arq> <diret.>__: mudar o arquivo de diretório ou renomear;
 
 - __pwd__: informa o diretório onde você está;
 
@@ -89,6 +89,21 @@ __virar um super usuario (nao usar o sudo e vira root):__ *sudo su*
 
 __trocar senha de usuário:__ *passwd*
 
+
+### COMPACTANDO ARQUIVOS NO LINUX
+
+> __tar__ : comando para compactar arquivos
+    > __tar -c__ - criar arquivo;
+    > __tar -czv__ -  mostra o progresso da compressão ;
+    > __tar -czvf__ - especificar o nome do arquivo;
+    > __tar -czvf <arquivo>.tar.gz <diretorio>__ - compactar
+    > __tar -xzvf <arquivo>.tar.gz__ - descompactar.  
+
+### COMPACTAÇÃO EM ZIP
+
+> compactar: __*zip -r <arquivo>.zip <diretório>*__
+
+> descompactar: __*unzip <arquivo>.zip -d <diretório>*__
 
 # __*Principais diretórios do sistema Linux:*__ 
 > diretório = pasta.

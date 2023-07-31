@@ -19,7 +19,7 @@ __*COMANDOS PRINCIPAIS DE UM REPO NO GIT:*__
 - __git init__ - criar repositorio.
 - __git add__ - adicionar arquivos ao repositorio.
 - __git commit__ - salvar alteraçoes.
-*     com a tag '**-a**' ele salva varios arquivos e '**-m**' envia uma mensagem;
+    * com a tag '**-a**' ele salva varios arquivos e '**-m**' envia uma mensagem;
 
 - __git push__ - envia as alteraçoes ao github.
 - __git status__ - Verifica mudanças no projeto.
@@ -56,30 +56,38 @@ Essa extensão permite a exibição de código, links, imagens, textos, etc.
 **_Terminal:_** basicamente uma tela do ubuntu que executa o shell.
 
 **_COMANDOS FUNDAMENTAIS DO LINUX:_**
-__ls__ - informa os diretórios/arquivos e seus conteúdos;
--    __ls -l__ : mostra todos os arquivos e pastas em detalhes;
--    __l -R__ : todos os diretórios e seus arquivo;
+- __ls__ - informa os diretórios/arquivos e seus conteúdos;
+    * __ls -l__ : mostra todos os arquivos e pastas em detalhes;
+    * __l -R__ : todos os diretórios e seus arquivo;
 
-__cd <diretório>__ - mudar de diretório;
-*    __cd /__ : informa todos os diretórios disponíveis na raiz;
+- __cd <diretório>__ - mudar de diretório;
+    * __cd /__ : informa todos os diretórios disponíveis na raiz;
 
-__clear__ : limpa a tela do terminal;
+- __clear__ : limpa a tela do terminal;
 
-__cat__ : conteúdo de um arquivo;
+- __cat__ : conteúdo de um arquivo;
 
-__touch__ : muda a hora de atualização do arquivo e/ou criar arquivo vazio; 
+- __touch__ : muda a hora de atualização do arquivo e/ou criar arquivo vazio; 
 
-__man <comando>__ : manual de um comando;
+- __man <comando>__ : manual de um comando;
 
-__mkdir <nome do diret.>__: criar novo diretório; 
+- __mkdir <nome do diret.>__: criar novo diretório; 
 
-___rm -dv__: remove diretório vazio;
-*    __rm -rfv__: remove diretórios com arquivos dentro;
-*    __rmdir__: remove apenas diretórios do sistema;
+- __rm -dv__: remove diretório vazio;
+    * __rm -rfv__: remove diretórios com arquivos dentro;
+    * __rmdir__: remove apenas diretórios do sistema;
 
-__cp <diret>__: copiar diretórios;
+- __cp <diret>__: copiar diretórios;
 
-__mv <arq> <diret>__: mudar o arquivo de diretório ou renomear;
+- __mv <arq> <diret>__: mudar o arquivo de diretório ou renomear;
 
-__pwd__: informa o diretório onde você está;
+- __pwd__: informa o diretório onde você está;
 
+
+
+# CERTIFICADOS 
+
+[Certificado Git e GitHub](https://udemy-certificate.s3.amazonaws.com/image/UC-885806dd-3e03-4df3-a985-e2669898b245.jpg)
+
+
+[Certificado LINUX](https://udemy-certificate.s3.amazonaws.com/image/UC-b78e4e85-291a-49f6-9f6c-ace18720bc96.jpg) 
