@@ -16,27 +16,27 @@ __*O QUE É GITHUB?*__  É um serviço usado para gerenciar os repositórios de 
 
 
 __*COMANDOS PRINCIPAIS DE UM REPO NO GIT:*__
-- "__git init__" - criar repositorio.
-- "__git add__" - adicionar arquivos ao repositorio.
-- __git commit__ - salvar alteraçoes.
-    * com a tag '**-a**' ele salva varios arquivos e '**-m**' envia uma mensagem;
+- `__git init__` - criar repositorio.
+- `__git add__`  - adicionar arquivos ao repositorio.
+- `__git commit__` - salvar alteraçoes.
+    * com a tag **`-a*`** ele salva varios arquivos e **`-m`** envia uma mensagem;
 
-- __git push__ - envia as alteraçoes ao github.
-- __git status__ - Verifica mudanças no projeto.
-- __git pull__ - Envia as mudanças do repo local para o remoto.
-- __git rm__ - remove arquivo.
-- __git clone__ - baixa um repo do git hub e clona na maquina.
+- `__git push__`- envia as alteraçoes ao github.
+- `__git status__`- Verifica mudanças no projeto.
+- `__git pull__`- Envia as mudanças do repo local para o remoto.
+- `__git rm__`- remove arquivo.
+- `__git clone__`- baixa um repo do git hub e clona na maquina.
 
 ## Branches
 **_O QUE É UMA BRANCH?_**
 É uma ramificaçao do projeto, serve para consertar bugs e inserir funçoes sem intervir no projeto principal.
 
 **_COMANDOS PRINCIPAIS DE UMA BRANCH:_**
-- __git branch<nome>__ - criar uma nova branch.
-- __git branch -d <nome>__ - deletar branch.
-- __git pull__- receber atualizações do repositório remoto; (atualizar o branch sempre que for usar).
-- __git checkout <nome>__ - alternar a branch.
-- __git push__ - enviar alterações mas apenas de arquivos commitados.
+- `__git branch<nome>__`- criar uma nova branch.
+- `__git branch -d <nome>__`- deletar branch.
+- `__git pull__`- receber atualizações do repositório remoto; (atualizar o branch sempre que for usar).
+- `__git checkout <nome>__`- alternar a branch.
+- `__git push__`- enviar alterações mas apenas de arquivos commitados.
 
 ## Markdown
 Markdown é uma forma de adicionar estilo a textos.
@@ -56,32 +56,32 @@ Essa extensão permite a exibição de código, links, imagens, textos, etc.
 **_Terminal:_** basicamente uma tela do ubuntu que executa o shell.
 
 **_COMANDOS FUNDAMENTAIS DO LINUX:_**
-- __ls__ - informa os diretórios/arquivos e seus conteúdos;
-    * __ls -l__ : mostra todos os arquivos e pastas em detalhes;
-    * __l -R__ : todos os diretórios e seus arquivo;
+- `__ls__`- informa os diretórios/arquivos e seus conteúdos;
+    * `__ls -l__`: mostra todos os arquivos e pastas em detalhes;
+    * `__l -R__`: todos os diretórios e seus arquivo;
 
-- __cd <diretório>__ - mudar de diretório;
-    * __cd /__ : informa todos os diretórios disponíveis na raiz;
+- `__cd <diretório>__`- mudar de diretório;
+    * `__cd /__`: informa todos os diretórios disponíveis na raiz;
 
-- __clear__ : limpa a tela do terminal;
+- `__clear__`: limpa a tela do terminal;
 
-- __cat__ : conteúdo de um arquivo;
+- `__cat__`: conteúdo de um arquivo;
 
-- __touch__ : muda a hora de atualização do arquivo e/ou criar arquivo vazio; 
+- `__touch__`: muda a hora de atualização do arquivo e/ou criar arquivo vazio; 
 
-- __man <comando>__ : manual de um comando;
+- `__man <comando>__`: manual de um comando;
 
-- __mkdir <nome do diret.>__: criar novo diretório; 
+- `__mkdir <nome do diret.>__`: criar novo diretório; 
 
-- __rm -dv__: remove diretório vazio;
-    * __rm -rfv__: remove diretórios com arquivos dentro;
-    * __rmdir__: remove apenas diretórios do sistema;
+- `__rm -dv__`: remove diretório vazio;
+    * `__rm -rfv__`: remove diretórios com arquivos dentro;
+    * `__rmdir__`: remove apenas diretórios do sistema;
 
-- __cp <diret>__: copiar diretórios;
+- `__cp <diret>__`: copiar diretórios;
 
-- __mv <arq> <diret>__: mudar o arquivo de diretório ou renomear;
+- `__mv <arq> <diret>__`: mudar o arquivo de diretório ou renomear;
 
-- __pwd__: informa o diretório onde você está;
+- `__pwd__`: informa o diretório onde você está;
 
 
 
