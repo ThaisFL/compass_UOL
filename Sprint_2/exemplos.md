@@ -4,10 +4,11 @@
 ## SELECT
 - __(EXEMPLO 1) Seleção de uma coluna de uma tabela__
 1. *Liste os e-mails dos clientes da tabela sales.customers:*
+```
+\_select\_ email 
+\_from\_ sales.customers
 
-\_*select*\_ email 
-\_*from*\_ sales.customers
-
+```
 ---
 
 - __(EXEMPLO 2) Seleção de mais de uma coluna de uma tabela__
