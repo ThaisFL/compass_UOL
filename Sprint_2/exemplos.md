@@ -7,6 +7,7 @@
 
 \_*select*\_ email 
 \_*from*\_ sales.customers
+
 ---
 
 - __(EXEMPLO 2) Seleção de mais de uma coluna de uma tabela__
@@ -14,6 +15,7 @@
 
 \_*select*\_ email, first_name, last_name
 \_*from*\_ sales.customers
+
 ---
 
 - __(EXEMPLO 3) Seleção de todas as colunas de uma tabela__
@@ -21,6 +23,7 @@
 
 \_*select* *\_ 
 \_*from*\_ sales.customers
+
 ---
 
 
@@ -30,6 +33,7 @@
 
 \_*select*\_ brand
 \_*from*\_ sales.products
+
 ---
 
 - __(EXEMPLO 2) Seleção de uma coluna com DISTINCT__
@@ -37,6 +41,7 @@
 
 \_*select\_\_distinct*\_ brand
 \_*from*\_ sales.products
+
 ---
 
 - __(EXEMPLO 3) Seleção de mais de uma coluna com DISTINCT__
@@ -44,6 +49,7 @@
 
 \_*select\_\_distinct*\_ brand, model_year
 \_*from*\_ sales.products
+
 ---
 
 
@@ -54,6 +60,7 @@
 \_*select*\_ email, state
 \_*from*\_ sales.customers
 \_*where*\_ state = 'SC'
+
 ---
 
 - __(EXEMPLO 2) Filtro com mais de uma condição__
@@ -62,6 +69,7 @@
 \_*select*\_ email, state
 \_*from*\_ sales.customers
 \_*where*\_ state = 'SC' \_*or*\_ state = 'MS'
+
 ---
 
 - __(EXEMPLO 3) Filtro de condição com data__
@@ -70,6 +78,7 @@
 \_*select*\_ email, state, birth_date
 \_*from*\_ sales.customers
 \_*where*\_ (state = 'SC' \_*or*\_ state = 'MS') \_*and*\_ birth_date < '1991-12-28'
+
 ---
 
 
@@ -80,6 +89,7 @@
 \_*select*\_ * 
 \_*from*\_ sales.products
 \_*order by*\_ price
+
 ---
 
 - __(EXEMPLO 2) Ordenação de texto__
@@ -88,6 +98,7 @@
 \_*select*\_ distinct state
 \_*from*\_ sales.customers
 \_*order by*\_ state
+
 ---
 
 
@@ -98,6 +109,7 @@
 \_*select*\_ *
 \_*from*\_ sales.funnel
 \_*limit*\_ 10
+
 ---
 
 - __(EXEMPLO 2) Seleção das N primeiras linhas usando LIMIT e ORDER BY__
@@ -107,6 +119,7 @@
 \_*from*\_ sales.products
 \_*order by*\_ price \_*desc*\_
 \_*limit*\_ 10
+
 ---
 
 ## __D E S A F I O__
@@ -116,6 +129,7 @@
 \_*from*\_ sales.customers
 \_*where*\_ state = 'MG'
 \_*order by*\_ city
+
 ---
 
 2. *(Exercício 2) Selecione o visit_id das 10 compras mais recentes efetuadas (dados da tabela sales.funnel):*
@@ -125,6 +139,7 @@
 \_*where*\_ paid_date \_*is not null*\_
 \_*order by*\_ paid_date \_*desc*\_
 \_*limit*\_ 10
+
 ---
 
 3. *(Exercício 3) Selecione todos os dados dos 10 clientes com maior score nascidos após 01/01/2000 (dados da tabela sales.customers):*
@@ -134,4 +149,5 @@
 \_*where*\_ birth_date > '2000/01/01'
 \_*order by*\_ score \_*desc*\_
 \_*limit*\_ 10
+
 ---
