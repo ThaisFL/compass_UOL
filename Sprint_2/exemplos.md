@@ -31,7 +31,7 @@
 - __(EXEMPLO 1) Seleção de uma coluna sem DISTINCT__
 1. *Liste as marcas de carro que constam na tabela products:*
 
-\_*select*\_ brand
+\_*select*\_brand
 \_*from*\_ sales.products
 
 ---
