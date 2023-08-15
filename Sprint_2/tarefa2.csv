@@ -1,0 +1,11 @@
+select count(*) as quantidade, 
+    EDITORA.nome,
+    endereco.estado,
+    endereco.cidade
+    
+from EDITORA 
+    join LIVRO on EDITORA.codEditora = LIVRO.editora
+    join ENDERECO on EDITORA.endereco = ENDERECO.codEndereco
+group by EDITORA.nome, endereco.estado, endereco.cidade 
+order by quantidade desc
+limit 5;
