@@ -1,0 +1,7 @@
+
+select titulo, max (valor) from livro limit 10;
+
+
+
+
+
