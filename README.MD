@@ -345,14 +345,3 @@ drop column <coluna>
 >https://markdown.net.br/sintaxe-basica/#:~:text=T%C3%ADtulos,Todo%20documento
 >https://www.w3schools.com/sql/sql_null_values.asp#:~:text=O%20que%20%C3%A9%20um%20valor%20NULO%3F 
 
-
-
-# CERTIFICADOS 
-
-[Certificado Git e GitHub](https://udemy-certificate.s3.amazonaws.com/image.jpg)
-
-[Certificado LINUX](https://udemy-certificate.s3.amazonaws.com/image.jpg)
-
-[Certificado data e analitycs 1](https://udemy-certificate.s3.amazonaws.com/image.jpg) 
-
-[Certificado SQL para analise de dados](https://udemy-certificate.s3.amazonaws.com/image.jpg)
