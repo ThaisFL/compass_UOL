@@ -1,7 +1,8 @@
 
-select titulo, max (valor) from livro limit 10;
-
-
-
+select titulo, valor
+from livro
+group by valor
+order by valor desc
+limit 10;
 
 
