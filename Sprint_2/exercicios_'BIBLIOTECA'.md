@@ -1,5 +1,5 @@
-# Lista de exercicios de Sql
-*BANCO DE DADOS USADO*: "Biblioteca"
+# Lista 1 de exercicios de Sql
+*BANCO DE DADOS USADO*:
 ![Biblioteca](<DER - Biblioteca.png>)
 
 
