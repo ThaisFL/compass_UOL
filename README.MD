@@ -340,7 +340,7 @@ rename column<coluna> to <nome novo>
 drop column <coluna>
 ```
 
-> fontes usadas:
+> fontes a mais:
 >https://portal.revendadesoftware.com.br
 >https://markdown.net.br/sintaxe-basica/#:~:text=T%C3%ADtulos,Todo%20documento
 >https://www.w3schools.com/sql/sql_null_values.asp#:~:text=O%20que%20%C3%A9%20um%20valor%20NULO%3F 
