@@ -1,0 +1,100 @@
+Actor - Gross
+ 
+Harrison Ford - 936.70 
+ 
+Samuel L. Jackson - 623.40 
+ 
+Morgan Freeman - 534.90 
+ 
+Tom Hanks - 415.00 
+ 
+"Robert Downey - The Avengers 
+Eddie Murphy - 441.20 
+ 
+Tom Cruise - 234.30 
+ 
+Johnny Depp - 423.30 
+ 
+Michael Caine - 534.90 
+ 
+Scarlett Johansson - 623.40 
+ 
+Gary Oldman - 534.90 
+ 
+Robin Williams - 250.90 
+ 
+Bruce Willis - 293.50 
+ 
+Stellan Skarsgard - 623.40 
+ 
+Anthony Daniels - 936.70 
+ 
+Ian McKellen - 377.80 
+ 
+Will Smith - 306.20 
+ 
+Stanley Tucci - 424.70 
+ 
+Matt Damon - 228.40 
+ 
+Robert DeNiro - 279.30 
+ 
+Cameron Diaz - 441.20 
+ 
+Liam Neeson - 474.50 
+ 
+Andy Serkis - 936.70 
+ 
+Don Cheadle - 459.00 
+ 
+Ben Stiller - 279.30 
+ 
+Helena Bonham Carter - 381.00 
+ 
+Orlando Bloom - 423.30 
+ 
+Woody Harrelson - 424.70 
+ 
+Cate Blanchett - 377.80 
+ 
+Julia Roberts - 183.40 
+ 
+Elizabeth Banks - 424.70 
+ 
+Ralph Fiennes - 381.00 
+ 
+Emma Watson - 381.00 
+ 
+Tommy Lee Jones - 250.70 
+ 
+Brad Pitt - 202.40 
+ 
+Adam Sandler - 169.70 
+ 
+Daniel Radcliffe - 381.00 
+ 
+Jonah Hill - 257.80 
+ 
+Owen Wilson - 250.90 
+ 
+Idris Elba - 459.00 
+ 
+Bradley Cooper - 350.10 
+ 
+Mark Wahlberg - 245.40 
+ 
+Jim Carrey - 260.00 
+ 
+Dustin Hoffman - 279.30 
+ 
+Leonardo DiCaprio - 658.70 
+ 
+Jeremy Renner - 623.40 
+ 
+Philip Seymour Hoffman - 424.70 
+ 
+Sandra Bullock - 336.00 
+ 
+Chris Evans - 623.40 
+ 
+Anne Hathaway - 448.10  
