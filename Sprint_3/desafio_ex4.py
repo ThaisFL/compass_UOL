@@ -26,3 +26,4 @@ with open("movie_contagem.txt", "w") as exercicio04:
         num = num + 1
 
       #A funçao 'write' escreve um texto no novo arquivo
+      # A funçao 'count' ira contar quantas vezes o um 'movie' aparece como um item no dict 'movie_contagem'.
