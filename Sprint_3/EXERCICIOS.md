@@ -139,7 +139,9 @@ def my_map (list, f):                   #declaraçao funçao my_map.
     nova_lista = []                     #abrindo a lista que eu quero retornar depois.
     for elemento in list:               # O 'for' vai aplicar a funçao my_map a cada elemento da lista.
         soma = f(elemento)              
-        nova_lista.append(soma)         # a funçao .append serve para adicionar um novo elemento a uma lista,                             no caso, o novo elemento sera a 'soma' que ira adicionar os novos                                elementos somados á nova_lista.
+        nova_lista.append(soma)         
+        
+    # a funçao .append serve para adicionar um novo elemento a uma lista,no caso, o novo elemento sera a 'soma' que ira adicionar os novoselementos somados á nova_lista.
     return nova_lista
 ```
 ---
