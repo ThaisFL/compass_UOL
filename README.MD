@@ -340,6 +340,37 @@ rename column<coluna> to <nome novo>
 drop column <coluna>
 ```
 
+# **Sprint_8**
+### 1. [Warm up]  Em Python, declare e inicialize uma lista contendo 250 inteiros obtidos de forma aleatória. Após, aplicar o método reverse sobre o conteúdo da lista e imprimir o resultado.
+```python
+import random 
+
+#lista de 250 numeros aleatorios no intervalo de 1-250
+lista_inteiros = [random.randint(1, 250) for _ in range(250)]
+
+#invertendo a lista
+lista_inteiros.reverse()
+
+print(lista_inteiros)
+```
+---
+### 2. [Warm up] Em Python, declare e inicialize uma lista contendo o nome de 20 animais. Ordene-os em ordem crescente e itere sobre os itens, imprimindo um a um (você pode utilizar list comprehension aqui).  Na sequência, armazene o conteúdo da lista em um arquivo de texto, um item em cada linha, no formato CSV.
+```python
+animals = ["Cachorro", "Gato", "Elefante", "Leão", "Tigre", "Girafa", "Panda", "Urso Polar", "Zebra",
+                 "Rinoceronte", "Cavalo", "Macaco", "Coelho", "Papagaio", "Cobra", "Tubarão", "Pinguim", 
+                 "Lobo", "Golfinho", "Sapo"]
+
+animals.sort()
+
+[print(animal) for animal in animals]
+
+with open("animais.csv", "w") as arquivo:
+    for animal in animals:
+        arquivo.write(f"{animal}\n")
+```
+
+
+
 > fontes a mais:
 >https://portal.revendadesoftware.com.br
 >https://markdown.net.br/sintaxe-basica/#:~:text=T%C3%ADtulos,Todo%20documento
